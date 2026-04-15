@@ -8,3 +8,13 @@ public:
     virtual ~Shape() = default;           // virtual destructor
 };
 
+class Rectangle : public Shape {
+private:
+    double width;
+    double height;
+
+public:
+    Rectangle(double w, double h);
+    double getArea() const override;
+    void display() const override;
+};
