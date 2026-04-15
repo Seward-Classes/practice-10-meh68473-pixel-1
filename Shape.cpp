@@ -23,3 +23,5 @@ double Circle::getArea() const {
 void Circle::display() const {
     std::cout << "Circle (radius: " << radius << ")\n";
 }
+
+std::cout << std::fixed << std::setprecision(1);
