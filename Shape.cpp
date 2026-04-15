@@ -13,3 +13,13 @@ double Rectangle::getArea() const {
 void Rectangle::display() const {
     std::cout << "Rectangle (" << width << " x " << height << ")\n";
 }
+
+Circle::Circle(double r) : radius(r) {}
+
+double Circle::getArea() const {
+    return M_PI * radius * radius;
+}
+
+void Circle::display() const {
+    std::cout << "Circle (radius: " << radius << ")\n";
+}
