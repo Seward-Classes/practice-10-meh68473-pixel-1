@@ -18,3 +18,13 @@ public:
     double getArea() const override;
     void display() const override;
 };
+
+class Circle : public Shape {
+private:
+    double radius;
+
+public:
+    Circle(double r);
+    double getArea() const override;
+    void display() const override;
+};
